@@ -9,3 +9,8 @@ build:
 
 image: build
 	docker build -t ${REPO}/${BINARY}:${VERSION} .
+
+clean: 
+# wont remove the docker image
+	rm ${BINARY}
+	

@@ -2,6 +2,7 @@
 *.o
 *.a
 *.so
+container_liveness
 
 # Folders
 _obj
